@@ -1,0 +1,50 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'stroke7pixeden';
+	src:url('../fonts/stroke7pixeden/stroke7pixeden.eot?u58ytb');
+	src:url('../fonts/stroke7pixeden/stroke7pixeden.eot?#iefixu58ytb') format('embedded-opentype'),
+		url('../fonts/stroke7pixeden/stroke7pixeden.woff?u58ytb') format('woff'),
+		url('../fonts/stroke7pixeden/stroke7pixeden.ttf?u58ytb') format('truetype'),
+		url('../fonts/stroke7pixeden/stroke7pixeden.svg?u58ytb#stroke7pixeden') format('svg');
+}
+
+.tabs {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+.tabs nav {
+    text-align: center;
+}
+
+.tabs nav ul {
+    list-style: none;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.tabs nav ul li {
+    position: relative;
+    display: block;
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+.tabs nav a {
+    position: relative;
+    display: block;
+    line-height: 2.5;
+}
+
+.tabs nav a span {
+    vertical-align: center;
+}
