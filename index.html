@@ -65,5 +65,12 @@
     </div>
 
     <script src="./js/tabs.js"></script>
+    <script>
+        (() => {
+            [].slice.call(document.querySelectorAll('.tabs')).forEach((el) => {
+                new Tabs(el)
+            })
+        })()
+    </script>
 </body>
 </html>

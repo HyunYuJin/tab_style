@@ -1,2 +1,4 @@
 # tab_style
-## Prototype 이해 및 적용해보기
+
+## [].slice.call()
+객체인 arguments를 배열로 만들기 위한 구문
